@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "newStorageAccountName": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "storageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "publicIPName": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "publicIPAddressType": {
+            "value": "Dynamic"
+        },
+        "vmName": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "vmSize": {
+            "value": "Standard_A1_v2"
+        },
+        "imagePublisher": {
+            "value": "Canonical"
+        },
+        "imageOffer": {
+            "value": "UbuntuServer"
+        },
+        "imageSKU": {
+            "value": "18.04-LTS"
+        },
+        "adminUsername": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "virtualNetworkName": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "virtualNetworkResourceGroup": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "subnet1Name": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "nicName": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "location": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "authenticationType": {
+            "value": "sshPublicKey"
+        },
+        "adminPasswordOrKey": {
+            "value": "" // TODO: Fill in parameter value
+        }
+    }
+}
